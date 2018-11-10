@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500" prefWidth="500" xmlns:fx="http://javafx.com/fxml" fx:controller="com.mycompany.mavenprojectgame.GameController">
+    <children>
+        <Label fx:id="currentPlayerLabel" layoutX="25.0" layoutY="5.0" style="-fx-font-weight: bold">Player Turn:</Label>
+        <GridPane fx:id="board" alignment="TOP_CENTER" disable="false" gridLinesVisible="false" layoutX="25.0" layoutY="25.0" maxWidth="450.0" prefHeight="450.0" prefWidth="450.0" style="-fx-background-color: rgb(200, 200, 200); -fx-padding: 5">
+        </GridPane>
+    </children>
+</AnchorPane>

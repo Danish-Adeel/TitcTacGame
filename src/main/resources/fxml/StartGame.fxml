@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.mavenprojectgame.StartGameController">
+    <stylesheets>
+        <URL value="@/styles/Styles.css"/>
+    </stylesheets>
+    
+    <children>
+        <Label layoutX="200.0" layoutY="90.0" style="-fx-font-weight: bold">Enter Player Names</Label>
+        
+        <Label layoutX="185.0" layoutY="130.0">Player 1</Label>
+        <TextField fx:id="player1" layoutX="185.0" layoutY="145.0"></TextField>
+        
+        <Label layoutX="185.0" layoutY="200.0">Player 2</Label>
+        <TextField fx:id="player2" layoutX="185.0" layoutY="215.0"></TextField>
+        
+        <Button fx:id="startButton" layoutX="225.0" layoutY="300.0">START</Button>
+        <Button fx:id="leaderBoardButton" layoutX="200.0" layoutY="350.0">LEADER BOARD</Button>
+    </children>
+</AnchorPane>
